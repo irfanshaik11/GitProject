@@ -1,6 +1,6 @@
 all: 
-	$ gcc -g -o WTFserver servermain.c
-	$ gcc -g -o WTF clientmain.c
+	$ gcc -g -pthread -o WTFserver servermain.c
+	$ gcc -g -pthread -o WTF clientmain.c
 
 clean:
 	rm my_ps
